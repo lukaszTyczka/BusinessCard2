@@ -7,3 +7,65 @@ html {
 *:before {
     box-sizing: inherit;
 }
+
+body {
+    height: 100vh;
+    background: #0c0c0c;
+    color: #00ff41;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    padding: 20px 2%;
+}
+.business-card__portrait {
+    border-radius: 50%;
+    height: 148px;
+    width: 148px;
+    margin-right: 32px;
+    box-shadow: 0 0 10px #00ff41;
+    display: block;
+    margin: 0 auto;
+}
+
+.business-card__line {
+    border-color: #00ff41;
+}
+
+.business-card__link {
+    text-decoration: none;
+    color: #00ff41;
+}
+.business-card__link:hover {
+    font-weight: 600;
+}
+
+@media (min-width: 640px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .main {
+        box-shadow: 0 0 30px #00ff41;
+        padding: 32px;
+        max-width: 624px;
+    }
+    .business-card {
+        display: flex;
+    }
+
+    .business-card__portrait {
+        border-radius: 50%;
+        height: 148px;
+        width: 148px;
+        margin: 0;
+        margin-right: 32px;
+        box-shadow: 0 0 10px #00ff41;
+    }
+    .business-card__line-portrait {
+        display: none;
+    }
+    .business-card__header {
+        padding: 0px 0px 8px 0px;
+    }
+}

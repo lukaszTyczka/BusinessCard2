@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Card </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
+    <main class="main">
+        <article class="business-card">
+            <div>
+                <img class="business-card__portrait" src="img/Portrait.jpg" alt="Portrait">
+                <hr class="business-card__line business-card__line-portrait">
+            </div>
 
+            <div>
+                <header class="business-card__header">
+                    <p class="business-card__name">Name: "Łukasz Tyczka"</p>
+                    <p class="business-card__position">Position: ".Net Developer"</p>
+                    <p class="business-card__experience business-card__experience--js">
+                        Experience: <br> &nbsp"around 4 years"
+                    </p>
+                    <hr class="business-card__line">
+                </header>
+
+                <p class="business-card__description">
+                    Description:<br> "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed ipsa ullam fugit
+                    cupiditate repellat amet, nihil cum deserunt accusantium aliquam."
+                </p>
+                <p class="business-card__contact">
+                    Contact: "<a class="business-card__link"
+                        href="https://www.linkedin.com/in/lukasztyczka/">Linkedin,</a>
+                    <a class="business-card__link" href="https://www.linkedin.com/in/lukasztyczka/">github.</a>"
+                </p>
+            </div>
+        </article>
+    </main>
+
+    <script src="main.js"></script>
 </body>
 </html>
