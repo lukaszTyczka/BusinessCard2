@@ -16,6 +16,11 @@ body {
     font-size: 14px;
     padding: 20px 2%;
 }
+
+.main {
+    border-radius: 16px;
+}
+
 .business-card__portrait {
     border-radius: 50%;
     height: 148px;
