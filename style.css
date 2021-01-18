@@ -29,6 +29,8 @@ body {
     box-shadow: 0 0 10px #00ff41;
     display: block;
     margin: 0 auto;
+    object-fit: cover;
+    object-position: top;
 }
 
 .business-card__line {
